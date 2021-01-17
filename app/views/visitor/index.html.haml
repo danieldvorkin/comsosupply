@@ -1,0 +1,75 @@
+%section#download.download.bg-primary.text-center
+  .container
+    .row
+      .col-md-8.mx-auto
+        %h2.section-heading Discover what all the buzz is about!
+        %p Our app is available on any mobile device! Download now to get started!
+        .badges
+          %a.badge-link{:href => "#"}
+            = image_tag "google-play-badge.svg"
+          %a.badge-link{:href => "#"}
+            = image_tag "app-store-badge.svg"
+%section#features.features
+  .container
+    .section-heading.text-center
+      %h2 Unlimited Features, Unlimited Fun
+      %p.text-muted Check out what you can do with this app theme!
+      %hr/
+    .row
+      .col-lg-4.my-auto
+        .device-container
+          .device-mockup.iphone6_plus.portrait.white
+            .device
+              .screen
+                = image_tag "demo-screen-1.jpg", class: 'img-fluid'
+              .button
+                / You can hook the "home button" to some JavaScript events or just remove it
+      .col-lg-8.my-auto
+        .container-fluid
+          .row
+            .col-lg-6
+              .feature-item
+                %i.icon-screen-smartphone.text-primary
+                %h3 Device Mockups
+                %p.text-muted Ready to use HTML/CSS device mockups, no Photoshop required!
+            .col-lg-6
+              .feature-item
+                %i.icon-camera.text-primary
+                %h3 Flexible Use
+                %p.text-muted Put an image, video, animation, or anything else in the screen!
+          .row
+            .col-lg-6
+              .feature-item
+                %i.icon-present.text-primary
+                %h3 Free to Use
+                %p.text-muted As always, this theme is free to download and use for any purpose!
+            .col-lg-6
+              .feature-item
+                %i.icon-lock-open.text-primary
+                %h3 Open Source
+                %p.text-muted Since this theme is MIT licensed, you can use it commercially!
+%section.cta
+  .cta-content
+    .container
+      %h2
+        Stop waiting.
+        %br>/
+        Start building.
+      %a.btn.btn-outline.btn-xl.js-scroll-trigger{:href => "#contact"} Let's Get Started!
+  .overlay
+%section#contact.contact.bg-primary
+  .container
+    %h2
+      We
+      %i.fas.fa-heart
+      new friends!
+    %ul.list-inline.list-social
+      %li.list-inline-item.social-twitter
+        %a{:href => "#"}
+          %i.fab.fa-twitter
+      %li.list-inline-item.social-facebook
+        %a{:href => "#"}
+          %i.fab.fa-facebook-f
+      %li.list-inline-item.social-google-plus
+        %a{:href => "#"}
+          %i.fab.fa-google-plus-g
