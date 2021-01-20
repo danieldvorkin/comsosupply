@@ -91,11 +91,12 @@ $brand-google-plus: #dd4b39;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-
+.navbar {
+background: whitesmoke;
+}
 // Styling for the navbar
 #mainNav {
     border-color: fade-out($gray-darker, .95);
-    background-color: white;
     @include transition-all;
     @include heading-font;
     .navbar-brand {
